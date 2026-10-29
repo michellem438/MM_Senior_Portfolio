@@ -1,0 +1,224 @@
+/* =========================
+   GLOBAL / RESET....
+========================= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #f0f0f0;
+  background-image: url("8f4d37ee8142e72995f6d85d5269af10.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar {
+  background-color: #3E5B4F;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left img {
+  height: 50px;
+}
+
+.navbar-right {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right a {
+  color: #F7F4EF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-right a:hover {
+  color: #F4C7D0;
+}
+
+/* =========================
+   PAGE LAYOUT
+========================= */
+.home-card {
+  max-width: 1200px;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+ol {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+/* =========================
+   CARDS
+========================= */
+.resource-card {
+  background-color: #3E5B4F;
+  margin: 2em auto;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #F7F4EF;
+  text-align: center;
+
+}
+
+.contact-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+/* =========================
+   BIO SECTION
+========================= */
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bio-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #F4C7D0;
+  object-fit: cover;
+}
+
+.bio-text h1 {
+  margin-bottom: 0.2em;
+}
+
+.bio-text h4 {
+  margin-top: 0;
+  font-weight: normal;
+  color: #F4C7D0;
+}
+
+/* =========================
+   PROJECT LAYOUT
+========================= */
+.project {
+  display: flex;
+  gap: 1.5em;
+  align-items: stretch;
+}
+
+.project iframe {
+  flex: 2;
+  min-width: 320px;
+  height: 450px;
+  border: none;
+  background-color: #F7F4EF;
+  border-radius: 8px;
+}
+
+.reflection {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.04);
+  padding: 1em;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.reflection h3 {
+  font-size: 1.8rem;
+  margin-top: 0;
+  color: #F4C7D0;
+}
+
+.reflection p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #F7F4EF;
+}
+
+/* =========================
+   LINKS / ICONS
+========================= */
+.skill-images {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin-top: 1em;
+}
+
+.picture {
+  transition: transform 0.2s ease;
+}
+
+.picture:hover {
+  transform: scale(1.05);
+}
+
+.link-pic {
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  border: 2px solid#F7F4EF;
+  object-fit: cover;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  color: #cccccc;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 900px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .project iframe {
+    width: 100%;
+    min-width: 0;
+    height: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .navbar-right {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+}
+.page-textsize{
+    text-align: center;
+    color:#F7F4EF;
+  }
+
+  a {
+    color: #F4C7D0; 
+  }
