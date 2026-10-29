@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Update these (from Curator Guide) -->
+  <meta name="description" content="Junior Fall Portfolio for YOUR NAME" />
+  <meta name="keywords" content="portfolio, junior, projects, programming, web development" />
+  <meta name="author" content="YOUR NAME" />
+
+  <title>Michelle Maipaul | Junior Fall Portfolio</title>
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Optional favicon (put your icon file in the same folder) -->
+  <link rel="icon" type="image/x-icon" href="butterfly-removebg-preview.png" />
+
+  <!-- Optional fonts (only keep if your CSS uses them) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <!-- Replace logo.png with your own image file -->
+        <img src="butterfly-removebg-preview.png" alt="Logo" />
+      </div>
+
+      <ul class="navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="cfus.html">CFUs</a></li>
+        <li><a href="labs.html">Labs</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="home-card">
+
+    <!-- ABOUT / BIO CARD -->
+    <section class="resource-card">
+      <div class="bio">
+        <div class="bio-pic">
+          <!-- Replace profile.jpg with your own image file -->
+          <img src="IMG_7595.jpeg" alt="Your Photo" />
+        </div>
+
+        <div class="bio-text">
+          <h1>Michelle Maipaul</h1>
+          <h4>Student at  <a href="https://www.taehs.org/" target="_blank">Thomas A. Edison High School</a></h4>
+          <p>
+           The purpose of my portfolio is to showcase my work to my teacher and peers. The primary goal for my portfolio is to find internships and show my personal growth.
+          </p>
+          <h3>About Me:</h3>
+        <p>My name is Michelle and I am an 11th grader currently attending 
+          Thomas A. Edison High School. My career goal is to become a sonographer!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK LINKS CARD (optional) -->
+    <section class="resource-card">
+      <h2>˚⟡˖ Links˚⟡˖ </h2>
+      <p>Old Portfolio/Contact Info:</p>
+
+      <div class="skill-images">
+        <!-- Old portfolio -->
+        <a href="https://michellem438.github.io/sophomore_portfolio/" target="_blank" rel="noopener">
+          <div class="picture">
+            <img class="link-pic" src="Screenshot_2026-01-14_at_10.20.02_AM-removebg-preview.png" alt="Old Portfolio" />
+          </div>
+        </a>
+
+        <!-- Email -->
+        <a href="mailto:michellem438@nycstudents.net" target="_blank" rel="noopener">
+          <div class="picture">
+            <img class="link-pic" src="Screenshot_2026-01-14_at_10.26.31_AM-removebg-preview.png" alt="Email" />
+          </div>
+        </a>
+
+        <!-- LinkedIn (or other) -->
+        <a href="https://www.linkedin.com/in/michelle-m-911945395/" target="_blank" rel="noopener">
+          <div class="picture">
+            <img class="link-pic" src="Screenshot_2026-01-14_at_10.29.04_AM-removebg-preview.png" alt="LinkedIn" />
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION (repeatable blocks) -->
+    <section class="resource-card">
+      <h2>˚⟡˖ ࣪Featured Projects˚⟡˖ ࣪</h2>
+      <h5>My 5 Favorite featured projects:</h5>
+      <ol>
+        <li> ✮ Holiday Jingle ✮</li>
+        <li> ✮ Holiday Animation ✮</li>
+        <li> ✮ Functions Arcade ✮</li>
+        <li> ✮ Holiday Drawing ✮</li>
+        <li> ✮ Earsketch Ringtone ✮</li>
+     </ol>
+
+    </section>
+
+    <!-- PROJECT 1 -->
+    <!--<section class="resource-card">
+      <div class="project">
+        <iframe src="PASTE-PROJECT-LINK-1" title="Project 1"></iframe>
+
+        <div class="reflection">
+          <h3>Project Title 1</h3>
+          <p>
+            Paste your curated reflection for Project 1 here (3–5 sentences).
+          </p>
+          <p><strong>Skills:</strong> HTML, CSS, Flexbox (edit based on your guide)</p>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- PROJECT 2 -->
+    <!--<section class="resource-card">
+      <div class="project">
+        <iframe src="PASTE-PROJECT-LINK-2" title="Project 2"></iframe>
+
+        <div class="reflection">
+          <h3>Project Title 2</h3>
+          <p>
+            Paste your curated reflection for Project 2 here (3–5 sentences).
+          </p>
+          <p><strong>Skills:</strong> (list skills here)</p>
+        </div>
+      </div>
+    </section>-->
+
+    <!-- Add more projects by copying PROJECT blocks -->
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="resource-card">
+    <p>© <span id="year"></span> Michelle Maipaul | Junior Fall Portfolio</p>
+  </footer>
+
+  <script>
+    // Auto-updates the year in the footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
