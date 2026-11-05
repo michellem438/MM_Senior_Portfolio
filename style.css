@@ -20,7 +20,7 @@ body {
    NAVBAR
 ========================= */
 .navbar {
-  background-color: #3E5B4F;
+  background-color: #bd2452;
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -46,7 +46,7 @@ body {
 }
 
 .navbar-right a:hover {
-  color: #F4C7D0;
+  color: #faf0bd;
 }
 
 /* =========================
@@ -68,11 +68,11 @@ ol {
    CARDS
 ========================= */
 .resource-card {
-  background-color: #3E5B4F;
+  background-color: #bd2452;
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 12px;
-  box-shadow: 0 0 12px #F7F4EF;
+  box-shadow: 0 0 12px #faf0bd;
   text-align: center;
 
 }
