@@ -119,15 +119,18 @@ ol {
   display: flex;
   gap: 1.5em;
   align-items: stretch;
+  width: 100%;
 }
 
 .project iframe {
   flex: 2;
   min-width: 320px;
-  height: 450px;
+  height: auto;
+  min-height: 450px;
   border: none;
   background-color: #F7F4EF;
   border-radius: 8px;
+  align-self: stretch;
 }
 
 .reflection {
