@@ -8,7 +8,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
-  color: #f0f0f0;
+  color: #fbedd4;
   background-image: url("lotus.gif");
   background-size: cover;
   background-repeat: no-repeat;
@@ -40,7 +40,7 @@ body {
 }
 
 .navbar-right a {
-  color: #F7F4EF;
+  color: #fbedd4;
   text-decoration: none;
   font-weight: bold;
 }
@@ -72,7 +72,7 @@ ol {
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 12px;
-  box-shadow: 0 0 12px #F7F4EF;
+  box-shadow: 0 0 12px #fbedd4;
   text-align: center;
 
 }
@@ -149,7 +149,7 @@ ol {
 .reflection p {
   font-size: 1.3rem;
   line-height: 1.6;
-  color: #F7F4EF;
+  color: #fbedd4;
 }
 
 /* =========================
@@ -174,7 +174,7 @@ ol {
   height: 80px;
   width: 80px;
   border-radius: 10px;
-  border: 2px solid#F7F4EF;
+  border: 2px solid#fbedd4;
   object-fit: cover;
 }
 
@@ -216,7 +216,7 @@ footer {
 }
 .page-textsize{
     text-align: center;
-    color:#F7F4EF;
+    color:#fbedd4;
   }
 
   a {
