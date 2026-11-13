@@ -230,6 +230,10 @@ footer {
    PROJECT TITLE READABILITY
 ========================= */
 
+/* PROJECT TITLE GLOW */
 .page-textsize {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.65);
+    color: #fbedd4;
+    text-shadow:
+        0 1px 2px rgba(30, 45, 38, 0.75),
+        0 0 6px rgba(251, 237, 212, 0.3);
 }
